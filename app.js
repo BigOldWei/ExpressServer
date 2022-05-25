@@ -44,14 +44,13 @@ server.use((err, req, res, next) => {
 //解析application/x-www-form-urlencoded
 server.use(express.urlencoded({ extended: false }))
 
-
-
-
-
 //导入用户路由
 const authRouter = require('./router/auth')
 //注册用户路由
 server.use('/api/auth', authRouter)
+
+const myRouter = require('./router/my')
+server.use('/my', myRouter)
 
 
 //3. 监听服务器80端口
