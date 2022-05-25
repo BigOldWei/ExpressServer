@@ -1,6 +1,7 @@
-![f4dc19951fd96a3a09db08f6cfd5fedc](http://img.weidawang.site/i/2022/05/24/628cecd21e3d9.jpeg)
+
 
 <div align='center'>
+    <img src ="http://img.weidawang.site/i/2022/05/22/628a3a6c81376.png">
 <h1>Node.js入门</h1>
 </div>
 
